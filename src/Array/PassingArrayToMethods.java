@@ -2,13 +2,12 @@ package Array;
 
 public class PassingArrayToMethods {
     public static void main(String[] args) {
-        int[] x ={10,20,30,40};
+        int[] x = {2,42,4,22,19};
         System.out.println(x[2]);
         change(x);
         System.out.println(x[2]);
-
     }
     public static void change(int[] y){
-        y[2] =99;
+        y[2] = 33;
     }
 }
